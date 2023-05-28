@@ -1,0 +1,11 @@
+@use '../abstracts/' as *;
+
+input[type=text] {
+    border-radius: $input-border-radius;
+    border: 2px solid $primary;
+    color: $input-text-clr;
+    background-color: $input-bg-clr;
+    padding: $input-padding;
+    font-size: $input-font-size;
+
+}

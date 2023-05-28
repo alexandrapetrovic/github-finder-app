@@ -1,0 +1,30 @@
+@use '../abstracts/' as *;
+
+
+.btn {
+    cursor: pointer;
+    font-size: $btn-font-size;
+    padding: $btn-padding-default;
+    box-shadow: $btn-box-shadow;
+    border: 1px solid transparent;
+    border-radius: $btn-border-radius;
+
+    &.btn-primary {
+        background-color: $primary;
+        color: $clr-white;
+    }
+    &.btn-focus {
+        background-color: $clr-purple-500;
+    }
+    &.btn-hover {
+        background-color: $clr-purple-500;
+    }
+    &.btn-active {
+        background-color: $clr-purple-500;
+        color: $clr-gray-400;
+    }
+
+    @media screen and (max-width: 768px) {
+        padding: $btn-padding-sm;
+    }
+}
