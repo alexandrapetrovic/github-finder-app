@@ -1,0 +1,25 @@
+@use '../abstracts/' as *;
+
+.text-primary {
+    color: $primary;
+}
+
+.text-white {
+    color: $clr-white;
+}
+
+.text-black {
+    color: $clr-black;
+}
+
+.text-success {
+    color: $success;
+}
+
+.text-danger {
+    color: $danger;
+}
+
+.bg-primary {
+    background-color: $primary;
+}

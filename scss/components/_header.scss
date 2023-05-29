@@ -2,5 +2,6 @@
 
 .header {
     text-align: $site-header-aligment;
-    padding: $site-header-x-padding;
+    padding: $site-header-y-padding $site-header-x-padding;
+            
 }

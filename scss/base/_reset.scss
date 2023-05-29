@@ -1,4 +1,5 @@
 
+@use '../abstracts/' as *;
 
 *, *::before, *::after {
     box-sizing: border-box;
@@ -40,3 +41,18 @@
     border-collapse: collapse;
     border-spacing: 0;
   }
+
+  /*
+   h1 - 36px
+   h2 - 20px
+   */
+
+   h1, .h1 {
+    font-weight: $fw-bold;
+    font-size: $size-8;
+   }
+
+   h2, .h2 {
+    font-weight: $fw-default;
+    font-size: $size-5;
+   }

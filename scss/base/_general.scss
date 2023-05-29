@@ -6,3 +6,8 @@ body {
     color: $clr-black;
     font-family: $ff-base;
 }
+
+.wrapper {
+    max-width: 580px;
+    margin: 0 auto;
+}
