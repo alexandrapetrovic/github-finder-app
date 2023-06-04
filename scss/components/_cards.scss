@@ -1,0 +1,63 @@
+@use '../abstracts/' as *;
+
+.card {
+    border-radius: $card-border-radius;
+    box-shadow: $card-box-shadow;
+    background-color: $clr-white;
+    padding: $card-padding;
+    width: 100%;
+}
+
+.card .card-img-top {
+    object-fit: cover;
+    border-radius: 100px;
+    width: 30%;
+    height: 30%;
+}
+
+.card .row-1 {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.card .row-2 {
+    display: flex;
+}
+
+.card .data {
+    display: flex;
+    gap: 2rem;
+    font-weight: $fw-700;
+    margin-top: 18px;
+}
+
+.card .divider {
+    border: 1px solid $clr-gray-400;
+    transform: rotate(90deg);
+    width: 30px;
+    height: 0px;
+    margin-top: 20px;
+
+}
+
+.card .icon {
+    object-fit: cover;
+    display: block;
+}
+
+.card .row-3 {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: space-evenly;
+    margin-left: 16px;
+}
+
+.card a {
+    text-decoration: none;
+    color: $clr-black;
+
+}
+
+
